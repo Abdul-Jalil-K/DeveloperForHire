@@ -1,0 +1,174 @@
+/* IDs */
+#introduction {
+ color: white;
+ font-family: "Poppins", sans-serif;
+ font-weight: 400;
+ font-style: normal;
+}
+
+
+#introduction p {
+    font-size: 1.5rem;
+}
+
+#dark-theme {
+    border: none;
+    background: none;
+}
+
+#dark-theme:hover {
+    background: lightgrey;
+    border-radius: 50%;
+}
+
+#features {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+#resume {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    background-color: lavender;
+}
+
+#pricing {
+    font-family: "Poppins", sans-serif !important;
+    font-weight: 500 !important;
+    font-style: normal !important;
+}
+
+
+#footer {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 0;
+}
+
+#footer a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* ClASSES  */
+
+.gradient-background {
+    background: linear-gradient(300deg, lavender, indigo, lightblue );
+    background-size: 180% 180%;
+    animation: gradient-animation 10s ease infinite;
+}
+
+
+
+
+.name {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+.profile {
+    border-radius: 50%;
+}
+
+
+
+.summary {
+    text-align: center;
+    width: 50%;
+    margin: 4px auto;
+    font-size: 1.5rem;
+}
+
+
+
+.feature-text {
+    font-size: 1.25rem
+}
+
+.contact-svg {
+    margin-right: 5px;
+}
+
+.showcase-intro, .showcase-link {
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+
+
+/* ELEMENTS */
+
+section {
+    padding: 30px 15px;
+}
+
+
+
+h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 3px;
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 15px;
+}
+
+h4 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+/* MEDIA QUERY */
+
+@media (max-width: 800px) {
+
+    .profile {
+        width: 400px;
+        height: 500px;
+    }
+
+    .summary {
+        width: 65%;
+    }
+
+    .resume-svg {
+        width: 100%;
+        height: 25rem;
+    }
+}
+
+
+/* COLOR CHANGE BUTTON */
+
+.white {
+    color: white !important;
+}
+
+.dark {
+    background-color: #1d2a35 !important;
+    color: white !important;
+}
+
+.midnight-blue {
+    background-color: rgb(8, 23, 37);
+}
+
+
+
+.grey {
+    background-color: darkgrey !important;
+}
